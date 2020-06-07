@@ -1,8 +1,5 @@
-var myFullName= "Samuel Ajayi Toluwa";
-var myHngId= "HNG-00302";
-var	myEmail= "troysammie7@gmail.com";
-var progLanguage= "javascript";
-var outPut= "hello world this is " + myFullName + " with " + myHngId + " and " +  myEmail + " using " + progLanguage + " for stage 2 task ";
+function hng(name, id, language, email){
+	console.log(`Hello World, this is ${name} with HNGi7 ID ${id} and email ${email} using ${language} for stage 2 task`)
+}
 
-
-console.log(outPut) 
+hng("Ajayi Samuel Toluwa", "HNG-00302", "JavaScript", "troysammie7@gmail.com" )
